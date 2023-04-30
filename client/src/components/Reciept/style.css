@@ -1,0 +1,36 @@
+.reciept {
+    padding: 2rem;
+    gap:1rem;
+    box-shadow: 1px 1px 15px 2px rgb(123, 126, 123) ;
+    border-radius: 1rem;
+    right: 1rem;
+    height: max-content;
+    margin: 1rem;
+    font-size: 12px;
+    bottom: 1rem;
+    display: inline-block;
+    justify-content: end;
+}
+.reciept-item{
+    display: flex;
+    gap: 1rem;
+    text-shadow: 0.1px 0.1px 2.3px rgb(0, 0, 0);
+    font-size: 1rem;
+    color: rgb(56, 58, 59);
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.total-price{
+    color: rgb(19, 224, 156);
+    font-size: 1.5rem;
+    text-shadow: 0.1px 0.1px 2.3px rgb(0, 0, 0);
+    font-family: bold Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.total-count{
+    text-shadow: 0.1px 0.1px 2.3px rgb(0, 0, 0);
+    font-size: 1.5rem;
+    color: aliceblue;
+}
